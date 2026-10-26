@@ -9,7 +9,7 @@ deliberately simple, hand-specified model. The model parameters were chosen for 
 they were not identified from hardware, and no experimental data are used. The simulations test the
 logic of the proposed ideas, not their performance on a real robot.
 
-## The model
+## The simplified model
 
 - **Valve:** a single rotating handwheel with friction. It turns only when the applied torque exceeds a
   breakaway level (2.0 in model units). A *seizure* raises that level from 2.0 to 8.0 over 30 s.

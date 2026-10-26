@@ -276,7 +276,7 @@ def fig_t2():
     ax.grid(which="minor", color="white", lw=2); ax.tick_params(which="minor", length=0)
     ax.set_title("(a) Hypothesized cause signatures", loc="left", weight="bold")
 
-    # (b) sequential Bayesian diagnosis with information-gain probe selection (toy model)
+    # (b) sequential Bayesian diagnosis with information-gain probe selection (simplified model)
     probes = ["P1 axial\nramp", "P2 off-axis\nwiggle", "P3 free-space\ntorque step", "P4 phase-timed\npush"]
     # mean signature (4 observed channels) for each cause under each probe, unit-noise scale
     mu = np.zeros((4, 5, 4))

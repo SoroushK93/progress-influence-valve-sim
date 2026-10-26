@@ -1,4 +1,4 @@
-"""B6 analogue in the toy valve model: a disturbance-conditioned progress predictor.
+"""B6 analogue in the simplified valve model: a disturbance-conditioned progress predictor.
 Recreates exactly the episodes of figs3.fig_prelim (seed 11, same call order) and adds a
 predictor fit on an independent set of seizure-free episodes (seed 12)."""
 import numpy as np, json
