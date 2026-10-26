@@ -1,0 +1,1 @@
+posterior of true cause: [0.2, 0.6, 0.98, 1.0, 1.0] ['P2 off-axis wiggle', 'P4 phase-timed push', 'P2 off-axis wiggle', 'P4 phase-timed push']

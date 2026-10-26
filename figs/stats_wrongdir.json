@@ -1,0 +1,11 @@
+{
+ "correct": {
+  "cond_js_bits": 0.9999999999999877,
+  "cond_advantage_rad": 0.12468663837300277
+ },
+ "wrong": {
+  "cond_js_bits": 0.9999999999999906,
+  "cond_advantage_rad": -0.12539711664462339
+ },
+ "rough_free_action_move_frac": 0.73559670781893
+}

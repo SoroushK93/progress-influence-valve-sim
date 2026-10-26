@@ -1,0 +1,48 @@
+{
+ "thresholds_dev_valve": {
+  "b6": 0.9624485341214007,
+  "cond": 0.8482526043778273
+ },
+ "same_valve": {
+  "b6": {
+   "false_alarm_no_fault": 0.05333333333333334,
+   "alarm_before_onset": 0.013333333333333334,
+   "median_delay": 10.89015936085961,
+   "n_detected_after_onset": 148
+  },
+  "cond": {
+   "false_alarm_no_fault": 0.06,
+   "alarm_before_onset": 0.02666666666666667,
+   "median_delay": 12.119552572609823,
+   "n_detected_after_onset": 146
+  }
+ },
+ "stiffer_valve": {
+  "b6": {
+   "false_alarm_no_fault": 1.0,
+   "alarm_before_onset": 1.0,
+   "median_delay": null,
+   "n_detected_after_onset": 0
+  },
+  "cond": {
+   "false_alarm_no_fault": 0.98,
+   "alarm_before_onset": 0.9333333333333333,
+   "median_delay": 8.500316233565986,
+   "n_detected_after_onset": 10
+  }
+ },
+ "looser_valve": {
+  "b6": {
+   "false_alarm_no_fault": 0.0,
+   "alarm_before_onset": 0.0,
+   "median_delay": 20.014830538432335,
+   "n_detected_after_onset": 150
+  },
+  "cond": {
+   "false_alarm_no_fault": 0.0,
+   "alarm_before_onset": 0.0,
+   "median_delay": 13.300007924456974,
+   "n_detected_after_onset": 150
+  }
+ }
+}
