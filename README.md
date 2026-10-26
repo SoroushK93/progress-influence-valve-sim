@@ -5,11 +5,11 @@ Soroush Korivand (Mississippi State University) on robots that decide whether th
 make progress, why they fail, and when to stop, while working aboard a moving vessel.
 
 **What these results are.** Every number and figure here is produced by numerical simulation of a
-deliberately simple, hand-specified toy model. The model parameters were chosen for illustration;
+deliberately simple, hand-specified model. The model parameters were chosen for illustration;
 they were not identified from hardware, and no experimental data are used. The simulations test the
 logic of the proposed ideas, not their performance on a real robot.
 
-## The toy model
+## The model
 
 - **Valve:** a single rotating handwheel with friction. It turns only when the applied torque exceeds a
   breakaway level (2.0 in model units). A *seizure* raises that level from 2.0 to 8.0 over 30 s.
